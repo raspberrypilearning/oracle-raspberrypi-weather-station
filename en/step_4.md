@@ -64,8 +64,26 @@ To use the image, do the following:
 
     ![](images/ssh_02.png)
 
+1. Still in the Terminal, type:
 
-1. Now run the one-line installer.  Type (or copy and paste) the following line into the terminal window.
+```bash
+sudo apt update
+```
+
+This will discover what new software is available for your Pi. Next you can install the updates
+
+1. Type:
+ ```bash
+sudo apt upgrade -y
+```
+
+1. Once the updates have been instaleld, reboot the Pi by typing:
+
+```bash
+sudo Reboot
+```
+
+1. Once the Pi has restarted, login again (and if you're using the Desktop version, open a Terminal).  Now run the one-line installer.  Type (or copy and paste) the following line.
 
 	```bash
 	curl -L http://rpf.io/wsinstall | bash

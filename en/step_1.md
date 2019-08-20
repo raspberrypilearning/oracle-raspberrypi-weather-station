@@ -22,13 +22,12 @@ title: What you will need
 ---
 ### Hardware
 
-+ Describe hardware here
++ An Oracle Raspberry Pi Weather station kit
 
 ### Software
 
-+ Scratch 2.0 (either [online](http://rpf.io/scratchon) or [offline](http://rpf.io/scratchoff))
 + Python 3
-+ This project can be completed in a web browser using [trinket.io](https://trinket.io/)
++ The weather station software repository
 
 ### Downloads
 

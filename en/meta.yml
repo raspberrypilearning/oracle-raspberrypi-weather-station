@@ -7,5 +7,11 @@ copyedit: false
 last_tested: "2019-08-20"
 steps:
   - title: Introduction
-  - title: Step title
-  - title: What next?
+  - title: Registering your Weather Station
+  - title: Assembling your Weather Station
+  - title: Installing the software
+  - title: Final hardware steps
+  - title: Testing your Weather Station
+  - title: Install the Weather Station outside
+  - title: Wind sensors
+  - title: Wifi

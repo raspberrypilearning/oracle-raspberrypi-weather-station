@@ -4,7 +4,6 @@ This project takes you through all the steps needed to assemble, program and ins
 
 ### What you will make
 
---- no-print ---
 A labelled diagram of the Weather HAT
 
 

@@ -1,4 +1,4 @@
-title: oracle-raspberrypi-weather-station
+title: Assembling and installing your Oracle Raspberry Pi Weather Station
 hero_image: images/banner.png
 description: oracle-raspberrypi-weather-station description
 version: 4
@@ -13,6 +13,4 @@ steps:
   - title: Final hardware steps
   - title: Testing your Weather Station
   - title: Install the Weather Station outside
-  - title: Wind sensors
-  - title: Wifi
   - title: What next?

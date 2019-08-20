@@ -29,6 +29,14 @@ title: What you will need
 + Python 3
 + The weather station software repository
 
+### tools
+
++ Flat head screwdriver
++ Small Phillips screwdriver
++ Pliers
++ Scalpel or sharp knife
++ Duct tape or electricians tape
+
 ### Downloads
 
 + [rpf.io/project-name-go](http://rpf.io/project-name-go){:target="_blank"}

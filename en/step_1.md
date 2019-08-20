@@ -1,6 +1,6 @@
 ## Introduction
 
-Add project description here. What will learners be making?
+This project takes you through all the steps needed to assemble, program and install an Oracle Raspberry Pi Weather station. These kits were sent to schools in 2015 & 2016. If you don't have one of these kist and are looking to build your own weather station, then please look at this [project](https://projects.raspberrypi.org/en/projects/build-your-own-weather-station) instead.
 
 ### What you will make
 
@@ -26,10 +26,10 @@ title: What you will need
 
 ### Software
 
-+ Python 3
++ This project will take you through all the steps needed to install the required packages and libraries.
 + The weather station software repository
 
-### tools
+### Tools
 
 + Flat head screwdriver
 + Small Phillips screwdriver

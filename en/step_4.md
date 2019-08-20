@@ -2,7 +2,7 @@
 
 The Weather Station software has two main elements. The first is the collection of drivers and scripts that are needed to communicate with the various weather sensors. The second is the local MariaDB database that is used to store all the data produced by the sensors. This data is regularly uploaded to our online Oracle database so that it can be analysed and compared with all the other Weather Stations from around the world.
 
-Before continuing, please ensure that you have [registered your School and Weather Station on the Oracle database](register.md).
+Before continuing, please ensure that you have registered your School and Weather Station on the Oracle database as described in step 2.
 
 The entire software installation process can take a while, especially if you have a slow Internet connection. If you're planning to carry out the installation as part of a lesson or club, it is probably a good idea to download everything you need (especially SD card images), burn the SD card and perform any software updates **before** the session.
 
@@ -11,14 +11,14 @@ There are three ways to install the software. Each has its advantages and disadv
 ### Method 1: Pre-built SD card image
 
 In some ways this is the easiest method, however there are some disadvantages:
-- The image will not be updated for every new Raspbian release so the update/upgrade process (step 2) may take longer.
+- The image will not be updated for every new Raspbian release so the update/upgrade process (step 2) may take longer. The current image is based on Raspbian Stretch.
 - Any hardware problems may be much harder to diagnose. Using either of the other methods is much more likely to reveal individual errors and make them simpler to correct. If you contact Weather Station support with problems having used the pre-built image, you will probably be asked to try again using the more manual methods.
-- The image is intended to be run on a Raspberry Pi 2 (the model that shipped with the kit) or a Pi 3. If you're using something else (an older Pi or a Pi Zero), it will not work without some tinkering.
+- The image is intended to be run on a Raspberry Pi 2 (the model that shipped with the kit) or a Pi 3. If you're using something else (an older Pi or a Pi Zero), it will not work without some tinkering. It will not work on a raspberry Pi model 4 (which requires Raspbian Buster).
 - The image is based on the stripped-down 'lite' build of Raspbian. Therefore it does not have any graphical software such as LibreOffice installed and all configuration (e.g. connecting to a wifi network) will have to be performed using the command line and by editing text files.  
 
 To use the image, do the following:
 
-1. Download the [Weather Station image](http://downloads.raspberrypi.org/weather_station/images/weather_station-2017-09-13/2017-09-weather-station.zip) and [burn it](https://www.raspberrypi.org/learning/software-guide/) to your SD card.
+1. Download the [Weather Station image](http://downloads.raspberrypi.org/weather_station/images/weather_station-2017-09-13/2017-09-weather-station.zip) and [burn it](https://www.raspberrypi.org/documentation/installation/installing-images/) to your SD card.
 
 1. Connect the Pi to the Internet. Login with the standard username and password (pi/raspberry) and run
 
@@ -37,7 +37,7 @@ To use the image, do the following:
 
     ![](images/install_07.png)
 
-1. Make sure all the sensors are connected and begin the [testing procedures](https://github.com/topshed/weather-station-guide/blob/master/test.md).
+1. Make sure all the sensors are connected.
 
 ### Method 2: One-line installer
 
@@ -45,7 +45,7 @@ To use the image, do the following:
 
 1. The SD card that was originally shipped with the Weather Station kit contains a version of Raspbian, the Raspberry Pi operating system, which is now extremely out of date and should not be used.
 
-1. Follow the [guide on the Raspberry Pi website](https://www.raspberrypi.org/learning/software-guide/) which tells you how to install the latest version of Raspbian. You can use the full Desktop version or the slimmer 'Lite' one. The latter is a smaller download as it does *not* include LibreOffice, Wolfram and many other packages which are not required for operation of the Weather Station. However, it is command-line only, and therefore all configuration is performed through this interface. There is no GUI.  
+1. Follow the [guide on the Raspberry Pi website](https://www.raspberrypi.org/documentation/installation/installing-images/) which tells you how to install the latest version of Raspbian. You can use either Desktop version or the slimmer 'Lite' one. The latter is a smaller download as it does *not* include LibreOffice, Wolfram and many other packages which are not required for operation of the Weather Station. However, it is command-line only, and therefore all configuration is performed through this interface. There is no GUI.  
 
 #### Setting up the Weather Station software.
 
@@ -109,7 +109,7 @@ You don't need any prior knowledge to set up the Weather Station. There are seve
 
 ## Manual installation
 
-1.  Start with a fresh install of the latest version of [Raspbian](https://www.raspberrypi.org/downloads/raspbian/). You can either use the full Desktop version, or the slimmer 'lite' version.
+1.  Start with a fresh install of the latest version of [Raspbian](https://www.raspberrypi.org/downloads/raspbian/). You can either use the Desktop versions, or the slimmer 'lite' version.
 
 1.  When booting for the first time, you will be presented with the desktop (or a login prompt if you're using the 'lite' version).
 
@@ -543,19 +543,10 @@ SELECT * FROM WEATHER_MEASUREMENT WHERE CREATED > '2014-01-01 12:00:00';
 
 Press `Ctrl`+`D` or type `exit` to quit MySQL.
 
-### Upload your data to the Oracle Apex database
-
-At this stage, you have a Weather Station which reads its sensors and stores the data at regular intervals in a database on the SD card. But what if the SD card gets corrupted? How do you back up your data? And how do you share it with the rest of the world?
-
-Oracle has set up a central database to allow all schools in the Weather Station project to upload their data. It is safe there, and you can download it in various formats, share it, and even create graphs and reports. Here's how to do it.
-
-### Register your school
-
-You'll need to [register your school](oracle.md) and add your Weather Station. Come back here when you have your Weather Station passcode.
 
 ### Update credential files with your Weather Station details
 
-Add the Weather Station name and password to the local Oracle credentials file with the commands below. This allows the code that uploads to Oracle to add it to the correct Weather Station.
+Add the Oracle Weather Station name and password (whcih you set when you registered your weather station back at the first step) to the local Oracle credentials file with the commands below. This allows the code that uploads to Oracle to add it to the correct Weather Station.
 
 ```bash
 cd ~/weather-station
@@ -572,20 +563,3 @@ Rename the Oracle credentials template file to enable it:
 ```bash
 mv credentials.oracle.template credentials.oracle
 ```
-
-### Checking that data is received
-
-Manually trigger an upload with the following command:
-
-```bash
-sudo ~/weather-station/upload_to_oracle.py
-```
-
-Log into your school's [Oracle Apex account](oracle.md) and go to 'Weather Measurements'. You should see the station readings:
-
-![](images/weather-readings.png)
-
-
-You can download your data in various formats and also make charts using the menu:
-
-![](images/wsmenu.png)

@@ -73,6 +73,7 @@ sudo apt update
 This will discover what new software is available for your Pi. Next you can install the updates
 
 1. Type:
+
  ```bash
 sudo apt upgrade -y
 ```

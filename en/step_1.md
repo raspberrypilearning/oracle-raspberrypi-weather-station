@@ -5,15 +5,11 @@ This project takes you through all the steps needed to assemble, program and ins
 ### What you will make
 
 --- no-print ---
-Add instructions for using the embedded content here.
+A labelled diagram of the Weather HAT
 
-<div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/160619869/?autostart=false" frameborder="0"></iframe>
-</div>
---- /no-print ---
 
 --- print-only ---
-![Complete project](images/showcase_static.png)
+![Complete project](images/weather-station-kit.png)
 --- /print-only ---
 
 --- collapse ---

@@ -10,7 +10,7 @@
 
    ![](images/build_03.jpg)
 
-1. Remove the Raspberry Pi from its box and place in onto its acrylic base as shown below.
+1. Remove the Raspberry Pi from its box and place it onto its acrylic base as shown below.
 
    ![](images/build_04.jpg)
 
@@ -18,7 +18,7 @@
 
    ![](images/build_06.jpg)
 
-1. Use the four 8mm screws and the four hex spacers to affix the Raspberry Pi to its acrylic base. Then place the CN19895 receptacle over the Raspberry Pi's GPIO pins.
+1. Use the four 8mm screws and the four hex spacers to affix the Raspberry Pi to its acrylic base. Then place the tall header (CN19895 receptacle) over the Raspberry Pi's GPIO pins.
 
    ![](images/build_07.jpg)
 
@@ -35,7 +35,7 @@
    ![](images/build_10.jpg)
    ![](images/build_11.jpg)
 
-1. You can now place the weather board over the Raspberry Pi, making sure that the mount on the weather board aligns with the pins of the CN19895 receptacle.
+1. You can now place the weather board over the Raspberry Pi, making sure that the mount on the weather board aligns with the pins of the tall header.
 
    ![](images/build_12.jpg)
 
@@ -43,7 +43,7 @@
 
    ![](images/build_13.jpg)
 
-1. Use a credit card placed between the pins on the receptacle to angle each row of pins outwards a little, to ensure a good contact is made.
+1. Use a credit card placed between the pins on the header to angle each row of pins outwards a little, to ensure a good contact is made.
 
    ![](images/build_14.jpg)
    ![](images/build_15.jpg)

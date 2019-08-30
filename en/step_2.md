@@ -16,7 +16,8 @@ If you have received a Raspberry Pi Weather Station, then your first task will b
 
    ![](images/register04.png)
 
-1. Now go back to the [Raspberry Pi Oracle database](https://apex.oracle.com/pls/apex/f?p=81290:LOGIN_DESKTOP:0:::::&tz=1:00) and login Using your school's name and password.
+1. Now go back to the [Raspberry Pi Oracle database](https://apex.oracle.com/pls/apex/f?p=81290:LOGIN_DESKTOP:0:::::&tz=1:00) and login using your school's name and password.
+
    ![](images/register05.png)
 
 1. The next page will ask for your activation code, which is included in the email sent to confirm your registration.
@@ -24,6 +25,7 @@ If you have received a Raspberry Pi Weather Station, then your first task will b
    ![](images/register06.png)
 
 1. Once you click on **Activate**, you will be taken to your Dashboard page.
+
    ![](images/register07.png)
 
 ## Register your Weather Station
@@ -31,9 +33,11 @@ If you have received a Raspberry Pi Weather Station, then your first task will b
 1. Click on **Your School** on your dashboard.
 
 1. You will be taken to your school's data page. To create a new Weather Station, click on **Add Weather Station**.
+
    ![](images/register08.png)
 
 1. You now need to complete the details for your Weather Station. You can choose any name you like, although it is probably best to keep it fairly short.
+
    ![](images/register10.png)
 
 1. Longitude and latitude are used to identify the location of your Weather Station. Latitude specifies the north–south position of a point on the Earth's surface. Longitude specifies the east-west position of a point on the Earth's surface. To find your longitude and latitude, if you don't already know it, you can use Google Maps. Search for your address then right-click on the marker that appears and select "What's here?" the longitude and latitude will then be shown at the bottom of the screen. The first number is your latitude and the second is your longitude.

@@ -42,6 +42,8 @@ title: What you will need
 + Pliers
 + Scalpel or sharp knife
 + Duct tape or electricians tape
++ Other tools and fixings for installing the Weather Station outside
+
 
 ### Downloads
 
@@ -61,6 +63,15 @@ This project involves the following concepts:
 + Databases
 + Basic electronic sensors
 + Networking
+
+This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
+
++ [Use manufacturing techniques and tools to create a completed product](https://curriculum.raspberrypi.org/manufacture/developer/)
+
++ [Process input data to monitor or react to the environment](https://curriculum.raspberrypi.org/physical-computing/developer/)
+
++ [Apply abstraction and decomposition to solve more complex problems](https://curriculum.raspberrypi.org/programming/developer/)
+
 
 --- /collapse ---
 

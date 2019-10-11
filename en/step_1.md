@@ -1,15 +1,15 @@
 ## Introduction
 
-This project takes you through all the steps needed to assemble, program and install an Oracle Raspberry Pi Weather station. These kits were sent to schools in 2015 & 2016. If you don't have one of these kits and are looking to build your own weather station, then please look at this [project](https://projects.raspberrypi.org/en/projects/build-your-own-weather-station) instead.
+This project takes you through all of the steps that you need to take to assemble, program, and install a Raspberry Pi Oracle Weather Station. The Weather Station kits were sent to schools in 2015 and 2016. If you don't have one of these kits and are looking to build your own weather station, then please look at [this project](https://projects.raspberrypi.org/en/projects/build-your-own-weather-station) instead.
 
 ### What you will make
 
-The Oracle Raspberry PI Weather station can measure and record:
+The Raspberry Pi Oracle Weather station can measure and record:
 
 + Air temperature
 + Humidity
 + Ground temperature
-+ Air Quality
++ Air quality
 + Wind speed and direction
 + Rainfall
 + Atmospheric pressure
@@ -28,22 +28,21 @@ title: What you will need
 ---
 ### Hardware
 
-+ An Oracle Raspberry Pi Weather station kit
++ A Raspberry Pi Oracle Weather Station kit
 
 ### Software
 
-+ This project will take you through all the steps needed to install the required packages and libraries.
-+ The weather station software repository
++ This project will take you through all of the steps that you need to take to install the required packages and libraries
++ The Weather Station software repository (see below)
 
 ### Tools
 
-+ Flat head screwdriver
-+ Small Phillips screwdriver
++ Flat-head screwdriver
++ Small Phillips-head screwdriver
 + Pliers
 + Scalpel or sharp knife
-+ Duct tape or electricians tape
++ Duct tape or electrical tape
 + Other tools and fixings for installing the Weather Station outside
-
 
 ### Downloads
 
@@ -80,7 +79,7 @@ This project covers elements from the following strands of the [Raspberry Pi Dig
 title: Additional information for educators
 ---
 
-The entire software installation process can take a while, especially if you have a slow Internet connection. If you’re planning to carry out the installation as part of a lesson or club, it is probably a good idea to download everything you need (especially SD card images), burn the SD card and perform any software updates before the session.
+The entire software installation process can take a while, especially if you have a slow internet connection. If you’re planning to carry out the installation as part of a lesson or club session, you may wish to download everything you need (especially SD card images), burn the SD card, and perform any software updates before the session.
 
 If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/project-name/print){:target="_blank"}.
 

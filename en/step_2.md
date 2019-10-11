@@ -1,9 +1,9 @@
-## Registering your Weather Station
+## Register your Weather Station
 
 
-If you have received a Raspberry Pi Weather Station, then your first task will be to register your school and Weather Station on the Raspberry Pi online Oracle database. This is where your weather station will upload data.
+If you have a Raspberry Pi Oracle Weather Station, then your first task will be to register your school and Weather Station on the Raspberry Pi online Oracle database. This is where your weather station will upload data.
 
-## Registering your School
+## Register your school
 
 1. Navigate to the [Raspberry Pi Oracle database](https://apex.oracle.com/pls/apex/f?p=81290:LOGIN_DESKTOP:0:::::&tz=1:00), and click on the **Register** button.
    ![](images/register01.png)

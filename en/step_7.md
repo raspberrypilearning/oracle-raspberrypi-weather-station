@@ -1,4 +1,4 @@
-## Install the Weather Station outside
+## Install your Weather Station outside
 
 
 Now, you are ready to install your Weather Station. Unplug the keyboard, mouse, and monitor, and seal up the main enclosure to ensure that it is watertight.

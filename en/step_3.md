@@ -54,7 +54,7 @@
 
    ![](images/build_16.jpg)
 
-1. To power your Raspberry Pi, you could use a standard 5V power supply or the power over Ethernet (PoE) kit, which is included.
+1. To power your Raspberry Pi, you could use a standard 5V power supply, or the power over Ethernet (PoE) kit, which is included.
 
    ![](images/build_17.jpg)
 

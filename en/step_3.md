@@ -62,6 +62,6 @@
 
    ![](images/build_18.jpg)
 
-1. Plug the relevant adapter into the Raspberry Pi as shown below. You can connect the other end to a network point and a wall socket.
+1. Plug the relevant adapter into the Raspberry Pi as shown below. The other end can be connected to a network point and a wall socket.
 
    ![](images/build_19.jpg)

@@ -1,0 +1,16 @@
+title: Assemble and install your Raspberry Pi Oracle Weather Station
+hero_image: images/banner.png
+description: Learn how to set up your Raspberry Pi Oracle Weather Station
+version: 4
+listed: false
+copyedit: false
+last_tested: "2019-08-20"
+steps:
+  - title: Introduction
+  - title: Register your Weather Station
+  - title: Assemble your Weather Station
+  - title: Install the software
+  - title: Final hardware steps
+  - title: Test your Weather Station
+  - title: Install your Weather Station outside
+  - title: What next?
